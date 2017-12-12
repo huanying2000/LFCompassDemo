@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		81B7B69F1FDF82BF00281A89 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B7B69E1FDF82BF00281A89 /* AppDelegate.swift */; };
+		81B7B6A11FDF82BF00281A89 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B7B6A01FDF82BF00281A89 /* ViewController.swift */; };
+		81B7B6A41FDF82BF00281A89 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81B7B6A21FDF82BF00281A89 /* Main.storyboard */; };
+		81B7B6A61FDF82BF00281A89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81B7B6A51FDF82BF00281A89 /* Assets.xcassets */; };
+		81B7B6A91FDF82BF00281A89 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81B7B6A71FDF82BF00281A89 /* LaunchScreen.storyboard */; };
+		81B7B6B41FDF82BF00281A89 /* LFCompassDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B7B6B31FDF82BF00281A89 /* LFCompassDemoTests.swift */; };
+		81B7B6BF1FDF82BF00281A89 /* LFCompassDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B7B6BE1FDF82BF00281A89 /* LFCompassDemoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		81B7B6B01FDF82BF00281A89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 81B7B6931FDF82BF00281A89 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 81B7B69A1FDF82BF00281A89;
+			remoteInfo = LFCompassDemo;
+		};
+		81B7B6BB1FDF82BF00281A89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 81B7B6931FDF82BF00281A89 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 81B7B69A1FDF82BF00281A89;
+			remoteInfo = LFCompassDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		81B7B69B1FDF82BF00281A89 /* LFCompassDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LFCompassDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		81B7B69E1FDF82BF00281A89 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		81B7B6A01FDF82BF00281A89 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		81B7B6A31FDF82BF00281A89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		81B7B6A51FDF82BF00281A89 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		81B7B6A81FDF82BF00281A89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		81B7B6AA1FDF82BF00281A89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81B7B6AF1FDF82BF00281A89 /* LFCompassDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LFCompassDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		81B7B6B31FDF82BF00281A89 /* LFCompassDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LFCompassDemoTests.swift; sourceTree = "<group>"; };
+		81B7B6B51FDF82BF00281A89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81B7B6BA1FDF82BF00281A89 /* LFCompassDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LFCompassDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		81B7B6BE1FDF82BF00281A89 /* LFCompassDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LFCompassDemoUITests.swift; sourceTree = "<group>"; };
+		81B7B6C01FDF82BF00281A89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		81B7B6981FDF82BF00281A89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81B7B6AC1FDF82BF00281A89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81B7B6B71FDF82BF00281A89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		81B7B6921FDF82BF00281A89 = {
+			isa = PBXGroup;
+			children = (
+				81B7B69D1FDF82BF00281A89 /* LFCompassDemo */,
+				81B7B6B21FDF82BF00281A89 /* LFCompassDemoTests */,
+				81B7B6BD1FDF82BF00281A89 /* LFCompassDemoUITests */,
+				81B7B69C1FDF82BF00281A89 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		81B7B69C1FDF82BF00281A89 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				81B7B69B1FDF82BF00281A89 /* LFCompassDemo.app */,
+				81B7B6AF1FDF82BF00281A89 /* LFCompassDemoTests.xctest */,
+				81B7B6BA1FDF82BF00281A89 /* LFCompassDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		81B7B69D1FDF82BF00281A89 /* LFCompassDemo */ = {
+			isa = PBXGroup;
+			children = (
+				81B7B69E1FDF82BF00281A89 /* AppDelegate.swift */,
+				81B7B6A01FDF82BF00281A89 /* ViewController.swift */,
+				81B7B6A21FDF82BF00281A89 /* Main.storyboard */,
+				81B7B6A51FDF82BF00281A89 /* Assets.xcassets */,
+				81B7B6A71FDF82BF00281A89 /* LaunchScreen.storyboard */,
+				81B7B6AA1FDF82BF00281A89 /* Info.plist */,
+			);
+			path = LFCompassDemo;
+			sourceTree = "<group>";
+		};
+		81B7B6B21FDF82BF00281A89 /* LFCompassDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				81B7B6B31FDF82BF00281A89 /* LFCompassDemoTests.swift */,
+				81B7B6B51FDF82BF00281A89 /* Info.plist */,
+			);
+			path = LFCompassDemoTests;
+			sourceTree = "<group>";
+		};
+		81B7B6BD1FDF82BF00281A89 /* LFCompassDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				81B7B6BE1FDF82BF00281A89 /* LFCompassDemoUITests.swift */,
+				81B7B6C01FDF82BF00281A89 /* Info.plist */,
+			);
+			path = LFCompassDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		81B7B69A1FDF82BF00281A89 /* LFCompassDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81B7B6C31FDF82BF00281A89 /* Build configuration list for PBXNativeTarget "LFCompassDemo" */;
+			buildPhases = (
+				81B7B6971FDF82BF00281A89 /* Sources */,
+				81B7B6981FDF82BF00281A89 /* Frameworks */,
+				81B7B6991FDF82BF00281A89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LFCompassDemo;
+			productName = LFCompassDemo;
+			productReference = 81B7B69B1FDF82BF00281A89 /* LFCompassDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		81B7B6AE1FDF82BF00281A89 /* LFCompassDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81B7B6C61FDF82BF00281A89 /* Build configuration list for PBXNativeTarget "LFCompassDemoTests" */;
+			buildPhases = (
+				81B7B6AB1FDF82BF00281A89 /* Sources */,
+				81B7B6AC1FDF82BF00281A89 /* Frameworks */,
+				81B7B6AD1FDF82BF00281A89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				81B7B6B11FDF82BF00281A89 /* PBXTargetDependency */,
+			);
+			name = LFCompassDemoTests;
+			productName = LFCompassDemoTests;
+			productReference = 81B7B6AF1FDF82BF00281A89 /* LFCompassDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		81B7B6B91FDF82BF00281A89 /* LFCompassDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81B7B6C91FDF82BF00281A89 /* Build configuration list for PBXNativeTarget "LFCompassDemoUITests" */;
+			buildPhases = (
+				81B7B6B61FDF82BF00281A89 /* Sources */,
+				81B7B6B71FDF82BF00281A89 /* Frameworks */,
+				81B7B6B81FDF82BF00281A89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				81B7B6BC1FDF82BF00281A89 /* PBXTargetDependency */,
+			);
+			name = LFCompassDemoUITests;
+			productName = LFCompassDemoUITests;
+			productReference = 81B7B6BA1FDF82BF00281A89 /* LFCompassDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		81B7B6931FDF82BF00281A89 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "ios开发";
+				TargetAttributes = {
+					81B7B69A1FDF82BF00281A89 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					81B7B6AE1FDF82BF00281A89 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 81B7B69A1FDF82BF00281A89;
+					};
+					81B7B6B91FDF82BF00281A89 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 81B7B69A1FDF82BF00281A89;
+					};
+				};
+			};
+			buildConfigurationList = 81B7B6961FDF82BF00281A89 /* Build configuration list for PBXProject "LFCompassDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 81B7B6921FDF82BF00281A89;
+			productRefGroup = 81B7B69C1FDF82BF00281A89 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				81B7B69A1FDF82BF00281A89 /* LFCompassDemo */,
+				81B7B6AE1FDF82BF00281A89 /* LFCompassDemoTests */,
+				81B7B6B91FDF82BF00281A89 /* LFCompassDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		81B7B6991FDF82BF00281A89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81B7B6A91FDF82BF00281A89 /* LaunchScreen.storyboard in Resources */,
+				81B7B6A61FDF82BF00281A89 /* Assets.xcassets in Resources */,
+				81B7B6A41FDF82BF00281A89 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81B7B6AD1FDF82BF00281A89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81B7B6B81FDF82BF00281A89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		81B7B6971FDF82BF00281A89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81B7B6A11FDF82BF00281A89 /* ViewController.swift in Sources */,
+				81B7B69F1FDF82BF00281A89 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81B7B6AB1FDF82BF00281A89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81B7B6B41FDF82BF00281A89 /* LFCompassDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81B7B6B61FDF82BF00281A89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81B7B6BF1FDF82BF00281A89 /* LFCompassDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		81B7B6B11FDF82BF00281A89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 81B7B69A1FDF82BF00281A89 /* LFCompassDemo */;
+			targetProxy = 81B7B6B01FDF82BF00281A89 /* PBXContainerItemProxy */;
+		};
+		81B7B6BC1FDF82BF00281A89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 81B7B69A1FDF82BF00281A89 /* LFCompassDemo */;
+			targetProxy = 81B7B6BB1FDF82BF00281A89 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		81B7B6A21FDF82BF00281A89 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81B7B6A31FDF82BF00281A89 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		81B7B6A71FDF82BF00281A89 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81B7B6A81FDF82BF00281A89 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		81B7B6C11FDF82BF00281A89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		81B7B6C21FDF82BF00281A89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		81B7B6C41FDF82BF00281A89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LFCompassDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YY.LFCompassDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		81B7B6C51FDF82BF00281A89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LFCompassDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YY.LFCompassDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		81B7B6C71FDF82BF00281A89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LFCompassDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YY.LFCompassDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LFCompassDemo.app/LFCompassDemo";
+			};
+			name = Debug;
+		};
+		81B7B6C81FDF82BF00281A89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LFCompassDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YY.LFCompassDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LFCompassDemo.app/LFCompassDemo";
+			};
+			name = Release;
+		};
+		81B7B6CA1FDF82BF00281A89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LFCompassDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YY.LFCompassDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LFCompassDemo;
+			};
+			name = Debug;
+		};
+		81B7B6CB1FDF82BF00281A89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LFCompassDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YY.LFCompassDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LFCompassDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		81B7B6961FDF82BF00281A89 /* Build configuration list for PBXProject "LFCompassDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81B7B6C11FDF82BF00281A89 /* Debug */,
+				81B7B6C21FDF82BF00281A89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81B7B6C31FDF82BF00281A89 /* Build configuration list for PBXNativeTarget "LFCompassDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81B7B6C41FDF82BF00281A89 /* Debug */,
+				81B7B6C51FDF82BF00281A89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81B7B6C61FDF82BF00281A89 /* Build configuration list for PBXNativeTarget "LFCompassDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81B7B6C71FDF82BF00281A89 /* Debug */,
+				81B7B6C81FDF82BF00281A89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81B7B6C91FDF82BF00281A89 /* Build configuration list for PBXNativeTarget "LFCompassDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81B7B6CA1FDF82BF00281A89 /* Debug */,
+				81B7B6CB1FDF82BF00281A89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 81B7B6931FDF82BF00281A89 /* Project object */;
+}
