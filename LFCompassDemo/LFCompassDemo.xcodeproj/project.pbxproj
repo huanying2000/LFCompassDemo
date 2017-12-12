@@ -14,6 +14,8 @@
 		81B7B6A91FDF82BF00281A89 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81B7B6A71FDF82BF00281A89 /* LaunchScreen.storyboard */; };
 		81B7B6B41FDF82BF00281A89 /* LFCompassDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B7B6B31FDF82BF00281A89 /* LFCompassDemoTests.swift */; };
 		81B7B6BF1FDF82BF00281A89 /* LFCompassDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B7B6BE1FDF82BF00281A89 /* LFCompassDemoUITests.swift */; };
+		81B7B6D01FDF83A900281A89 /* ScaleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B7B6CF1FDF83A900281A89 /* ScaleView.swift */; };
+		81B7B6D21FDFA77B00281A89 /* CompassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B7B6D11FDFA77B00281A89 /* CompassViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		81B7B6BA1FDF82BF00281A89 /* LFCompassDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LFCompassDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		81B7B6BE1FDF82BF00281A89 /* LFCompassDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LFCompassDemoUITests.swift; sourceTree = "<group>"; };
 		81B7B6C01FDF82BF00281A89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81B7B6CF1FDF83A900281A89 /* ScaleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScaleView.swift; sourceTree = "<group>"; };
+		81B7B6D11FDFA77B00281A89 /* CompassViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompassViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,7 @@
 		81B7B69D1FDF82BF00281A89 /* LFCompassDemo */ = {
 			isa = PBXGroup;
 			children = (
+				81B7B6CC1FDF837800281A89 /* Compass */,
 				81B7B69E1FDF82BF00281A89 /* AppDelegate.swift */,
 				81B7B6A01FDF82BF00281A89 /* ViewController.swift */,
 				81B7B6A21FDF82BF00281A89 /* Main.storyboard */,
@@ -123,6 +128,31 @@
 				81B7B6C01FDF82BF00281A89 /* Info.plist */,
 			);
 			path = LFCompassDemoUITests;
+			sourceTree = "<group>";
+		};
+		81B7B6CC1FDF837800281A89 /* Compass */ = {
+			isa = PBXGroup;
+			children = (
+				81B7B6CD1FDF837800281A89 /* Controller */,
+				81B7B6CE1FDF837800281A89 /* View */,
+			);
+			path = Compass;
+			sourceTree = "<group>";
+		};
+		81B7B6CD1FDF837800281A89 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				81B7B6D11FDFA77B00281A89 /* CompassViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		81B7B6CE1FDF837800281A89 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				81B7B6CF1FDF83A900281A89 /* ScaleView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +289,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81B7B6D01FDF83A900281A89 /* ScaleView.swift in Sources */,
 				81B7B6A11FDF82BF00281A89 /* ViewController.swift in Sources */,
 				81B7B69F1FDF82BF00281A89 /* AppDelegate.swift in Sources */,
+				81B7B6D21FDFA77B00281A89 /* CompassViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -427,7 +459,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5XS36RNMEV;
 				INFOPLIST_FILE = LFCompassDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = YY.LFCompassDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -441,7 +475,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5XS36RNMEV;
 				INFOPLIST_FILE = LFCompassDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = YY.LFCompassDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
